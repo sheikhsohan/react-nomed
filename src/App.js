@@ -12,6 +12,7 @@ import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
 import News from './components/News/News';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 import FloatingButton from './custom/FloatingTop';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
 		<Portfolio />
 		<News />
 		<Contact />
+	  	<Footer />
 		<FloatingButton />
 	</div>
   )
